@@ -40,7 +40,7 @@ public class EmployeeDetails {
                      employee.setLastName(((new BufferedReader(new InputStreamReader(System.in))).readLine()));
                         
                   }  
-            	  if(choice==5){
+            	  if(choice==4){
                       System.out.println("***********"+"\n"+"Id-"+employee.getId());
                       System.out.println("Name-"+employee.getFirstName());
                       System.out.println("Class-"+employee.getLastName());
