@@ -1,26 +1,28 @@
-package practice;
+package com.practice;
 
 public class Student
 {
+ 
+	
     private int id;
     private String stName;
     private int stclass;
     private double percentage;
-
+    private String emailid;
+    
     public Student(){
-
-    }
-    public Student(int id, String stName) {
-        this.id = id;
-        this.stName = stName;
     }
    
-    public Student(int id, String stName, int stclass , Double percentage) {
+    public Student(int id, String stName, int stclass , Double percentage,String emailid) {
         this.id = id;
         this.stName = stName;
         this.stclass = stclass;
         this.percentage = percentage;
+        this.emailid = emailid;
     }
+    
+
+    
     public int getId() {
         return id;
     }
@@ -29,7 +31,13 @@ public class Student
         this.id = id;
     }
     
-    public String getStName() {
+    public String getEmailid() {
+		return emailid;
+	}
+	public void setEmailid(String emailid) {
+		this.emailid = emailid;
+	}
+	public String getStName() {
         return stName;
     }
 
@@ -40,7 +48,7 @@ public class Student
     public int getStclass() {
         return stclass;
     }
-
+ 
     public void setStclass(int stclass) {
         this.stclass = stclass;
     }
@@ -51,11 +59,4 @@ public class Student
 		this.percentage = percentage;
 	}
 
-    
-    
-  
-
-    
-
-    
-}
+    }

@@ -1,4 +1,4 @@
-package practice;
+package com.practice;
 
 import java.io.BufferedReader;
 import java.io.FileWriter;
@@ -10,7 +10,7 @@ import java.io.InputStreamReader;
  */
 public class DemoFileWriter_Student {
     String content;
-   
+    
     public void studentInput(){
 
     	Student student = new Student();

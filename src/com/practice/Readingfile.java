@@ -1,4 +1,4 @@
-package practice;
+package com.practice;
 
 import java.io.BufferedReader;
 import java.nio.file.Files;
@@ -22,6 +22,6 @@ public class Readingfile {
    catch (Exception e) {
     System.out.println(e);
   }
-       
+        
 }
 }
